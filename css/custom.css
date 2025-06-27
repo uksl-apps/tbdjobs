@@ -1,0 +1,369 @@
+
+
+/*start Discover Jobs across Various Roles*/
+  #tbd_discover_job{
+        padding-top:90px;
+        padding-bottom:90px;
+    }
+    #tbdjobs_empchoice{
+       padding-top:70px;
+       padding-bottom:70px;
+    }
+#tbdjobs_collchoice{
+      padding-top:70px;
+       padding-bottom:70px;
+}
+    .tbd_dis_job_card{
+        background: #dde1e7;
+        display: flex;
+        justify-content: center;   
+        align-items: center;       
+        height: 120px;            
+        width:100%;
+        text-align: center;
+        filter: drop-shadow(2px 2px 2px  #000000);
+        margin-top:20px;
+        margin-bottom:20px;
+        transition: background-color 0.3s ease;
+    }
+     .tbd_dis_job_card:hover{
+         filter: drop-shadow(5px 5px 5px  #000000);
+           background-color: #E31E24;
+           color:#fff;
+     }
+    .tbd_dis_job_alink{
+        text-decoration:none;
+        list-style:none;
+        color:#000000;
+    }
+    .tbd_dis_job_alink:hover{
+        text-decoration:none;
+        list-style:none;
+        color:#fff;
+    }
+    .tbdjobs_dis_img{
+        padding:20px;
+        border-radius:100%;
+ filter: drop-shadow(2px 2px 2px  #000000); 
+    }
+
+/*end Discover Jobs across Various Roles*/
+
+
+/*start Employers Of Choice*/
+.tbdjobs_empch_card {
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 120px;
+        width: 100%;
+        text-align: center;
+        filter: drop-shadow(2px 2px 2px #000000);
+        transition: filter 0.3s ease;
+        padding: 12px;
+        margin-top:8px;
+        margin-bottom:8px;
+    }
+
+    .tbdjobs_empch_card:hover {
+        background-color:#dde1e7;
+        filter: drop-shadow(5px 5px 5px #000000);
+    }
+
+    .tbdjobs_empch_card img {
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .tbdjobs_title {
+        margin-bottom: 30px;
+        font-weight:bold;
+    }
+
+    .swiper {
+        padding-bottom: 30px;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        color: #000;
+    }
+/*end Employers Of Choice*/
+
+/*start account & discover*/
+#tbdjobs_acc_dis{
+        padding-top:70px;
+       padding-bottom:70px;   
+    }
+    .tbdjobs_cr_acc_card{
+        background: #fff;
+        border:1px solid #dde1e7;
+        padding-left:8px;
+        filter: drop-shadow(2px 2px 2px  #000000);
+        margin-top:8px;
+        margin-bottom:8px;
+        padding-top:12px;
+        padding-bottom:12px;
+    }
+     .tbdjobs_cr_acc_card:hover{
+         background: #dde1e7;
+        border:1px solid #dde1e7;
+        padding-left:8px;
+        filter: drop-shadow(3px 3px 3px  #000000);
+        margin-top:8px;
+        margin-bottom:8px; 
+     }
+    .tbdjobs_cr_acc_card_img{
+        filter: drop-shadow(5px 5px 5px  #000000); 
+    }
+    .tbdjobs_acc_dis{
+        list-style:none;
+        text-decoration:none;
+        font-size:23px;
+        font-weight:500;
+        color:#E31E24;
+    }
+    .tbdjobs_acc_dis_par{
+        font-size:17px;
+        line-height:40px;
+        font-weight:450;
+        padding-left:30px;
+    }
+    .tbdjobs_acc_redg{
+        margin-top:20px;
+        width:300px;
+        height:45px;
+        filter: drop-shadow(2px 2px 2px  #000000); 
+    }
+/*end account & discover*/
+
+/*start handpicked*/
+#tbdjobs_handpicked{
+       padding-top:100px;
+       background-color:#CBF0F9;
+    }
+    .tbdjobs_handpicked_heading{
+     color: #000; 
+     font-size: 36px;
+     font-family: Syne;
+     font-weight:600;
+     line-height:52px;   
+    }
+    .tbdjobs_handpicked_par{
+     color: #000; 
+     font-size: 18px;
+     font-family: Syne;
+     line-height:32px;
+     font-weight:600;   
+    }
+    .tbdjobs_handpicked_img{
+        margin-bottom:0px;
+         filter: drop-shadow(2px 2px 2px  #000000);
+    }
+    .tbdjobs_hanpicked_expo{
+        background-color:#E31E24;
+        width:300px;
+        filter: drop-shadow(2px 2px 2px  #000000);
+        height:45px;
+    }
+/*end handpicked*/
+
+/*start featured blog*/
+.tbdjobs_featured_blogs{
+        min-height:300px;
+        border:1px solid #dde1e7;
+        padding:4px;
+        padding-top:12px;
+         padding-bottom:12px;
+        background: #dde1e7;
+        filter: drop-shadow(2px 2px 2px  #000000);
+        margin-top:8px;
+        margin-bottom:8px;
+    }
+    .tbdjobs_featured_blogs:hover{
+        border:1px solid #000000;
+        color:#fff;
+        filter: drop-shadow(4px 4px 4px  #000000);
+         background:linear-gradient(310deg, pink, #fff 100%);
+    }
+    
+    .tbdjob_blogs_alink{
+        text-decoration:none;
+        list-style:none;
+    }
+    .tbdjob_blogs_alink:hover{
+        text-decoration:none;
+        list-style:none;
+    }
+    .tbdjobs_blogs_heading{
+        padding-top:12px;
+         font-size: 15px;
+         color: #000000;
+         font-weight:440;
+         color:red;
+         text-align: justify;
+         text-justify: inter-word;
+         line-height: 1.3;
+         word-spacing: 0.4px;
+         hyphens: auto;
+
+    }
+    .tbdjobs_blogs_paragraph{
+         font-size: 14px;
+         color: #000000;
+         text-align: justify;
+         text-justify: inter-word;
+         line-height: 1.4;
+         word-spacing: 0.5px;
+         hyphens: auto;
+    }
+    .tbdjobs_btn_expl_alink{
+        text-decoration:none;
+        list-style:none;
+    }
+    .tbdjobs_btn_expl_alink:hover{
+        text-decoration:none;
+        list-style:none;
+    }
+    .tbdjobs_btn_expl{
+      margin-top:20px;
+      width:300px;
+      height:45px;
+      filter: drop-shadow(2px 2px 2px  #000000);
+    }
+/*end featured blog*/
+
+/*start about*/
+.tbdjob_about_div{
+    padding-top:70px;
+    padding-bottom:40px;
+}
+    .tbdjob_about_par{
+        font-size:17px;
+        text-align:justify;
+        font-weight:550;
+        color:#000000;
+    }
+    .tbdjob_about_par_heading{
+        font-weight:bold;
+    }
+    .tbdjobs_about_img{
+       
+    }
+    .tbdjob_about_sec_par{
+        font-size:17px;
+        color:#000000;
+        font-weight:400;
+    }
+
+/*end about*/
+
+/*start contact*/
+ .tbdjobs_contact{
+        padding-top:90px;
+    }
+    /*start contact*/
+        .con_lbl{
+                padding-top:8px;
+                padding-bottom:8px;
+                font-size:17px;
+                color:#000000;
+                
+            }
+            .ipt{
+                margin-top:8px;
+                border:1px solid red;
+                padding-top:12px;
+                padding-bottom:12px;
+            }
+            .con_div{
+             padding-top:10px; padding-bottom:10px;   
+            }
+            .cnt_ipt{
+                 margin-top:8px;
+            }
+            .con_col_6{
+              padding-top:40px; padding-bottom:40px;  
+            }
+            .con_ri_div{
+            border:1px solid #000000; padding:30px; border-radius:35px; border-bottom:5px solid #000000; border-right:5px solid #000000;    
+            }
+            .tbdjobs_contact_spn{
+                font-size:17px;
+                color:#000000;
+            }
+            .cnt_alink{
+                color:#000000;
+            }
+            .tbdjob_abt_hr{
+              border:1px solid #000000;  
+            }
+      /*end contact*/
+/*end contact*/
+
+
+/*start footer section*/
+  .tbd_jobs_footer{
+        margin-top:8%;
+        background-color:#000000;
+        padding-top:1%;
+        padding-left:8%;
+        padding-right:8%;
+        color:#fff;
+        font-family:'Syne', sans-serif;
+    }
+    .tbd_job_footer_head_logo{
+        height:120px;
+    }
+    .tbd_job_footer_logo{
+        height:120px;
+       
+    }
+   .tbd_footer_social_btn{
+     border:1px solid #fff; padding:1px; height:40px; width:40px; border-radius:50%; margin:8px;  background-color:#fff;
+    }
+    .tbd_footer_social_btn:hover{
+        color:red;
+        border:1px solid pink;
+        background-color:pink;
+        color:#fff;
+    }
+    .tbd_award_alink:hover{
+        color:red;
+        text-decoration:none;
+    }
+     .tbd_footer_li_link{
+        height:30px;
+        list-style:none;
+    }
+    .tbd_footer_alink{
+        color:#fff;
+        text-decoration:none;
+        list-style:none;
+    }
+    @media only screen and (max-width: 800px){
+        .tbd_jobs_footer{
+            margin-top:100px;
+        }
+        .tbd_footer_head_left{
+           width:100%;
+           padding-top:20px;
+        }
+      
+        .tbd_footer_social_alink{
+            text-decoration:none;
+            list-style:none;
+            
+        }
+        .tbd_jobs_footer_btn{
+            width:100%;
+            height:100%;
+           
+        }
+        .tbd_footer_tr{
+            width:20%;
+            float:left;
+        }
+    }
+/*end footer section*/
